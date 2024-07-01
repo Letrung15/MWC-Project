@@ -1,0 +1,160 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section customCSS {
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .about ul li {
+            list-style-type: disc;
+        }
+
+        .about ol > li {
+            list-style-type: decimal;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .mtext-114, .mtext-115 {
+            font-weight: bold;
+            font-size: 24px;
+            color: #0275d8;
+        }
+
+        .mtext-101 {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .stext-118 {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .mtext-101.font-italic {
+            font-style: italic;
+        }
+
+        .about p {
+            margin-bottom: 15px;
+            text-align: justify; /* Add this line */
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+            ol ul {
+                padding-left: 20px;
+                list-style-type: circle;
+            }
+
+        .about img {
+            width: 100%; /* Make image width 100% of its container */
+            max-width: 100%; /* Prevent overflow */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+}
+
+<div class="bg0 m-t-23 p-b-23 about">
+    <div class="container cl2">
+        <span class="mtext-114">LT SHOP LÀ 1 SHOP CÓ UY TÍN VÀ ĐƯỢC NHIỀU KHÁCH HÀNG TÍN NHIỆM.</span>
+        <img class="py-3 mx-auto d-block" src="/Assets/Client/images/about-1.png" />
+        <p class="mtext-101 font-italic">Với phương châm kinh doanh hài lòng trước nhận tiền sau, LT Shop luôn cố gắng mang lại giá sản phẩm ổn định và đảm bảo có nguồn hàng sẵn cho quý khách hàng. Cố gắng vì khách hàng là động lực để cửa hàng cố gắng phát triển</p>
+        <p class="stext-118 p-t-15">
+            Những mặt hàng đã có sẵn tại shop mà giá trị thị trường đã tăng lên tới gấp 3 4 lần thì tại shop vẫn sẽ luôn giữ nguyên giá cố định và cam kết với khách hàng không đội giá sản phẩm lên cao theo thị trường. ( đã có nhiều khách hàng trên thị trường kiểm chứng và đánh giá tốt về dịch vụ của chúng tôi )
+        </p>
+        <p class="stext-118 p-t-15">
+            Hướng đi của LT Shop là luôn bán hàng theo giá cả cạnh tranh và tốt nhất trên thị trường máy tính tại Việt Nam, không để giá ảo hay giá độn lên nhằm mục đích câu khách hoặc tạo tiếng tăm ảo.
+        </p>
+        <p class="stext-118 p-t-15">
+            Chúng tôi luôn có quan niệm mua bán phải minh bạch rõ ràng nên sẽ có giá niêm yết của cửa hàng và không lên xuống bất thường. ( Trừ các dịp khuyến mãi sản phẩm dành cho khách hàng thân thiết của shop )
+        </p>
+        <p class="stext-118 p-t-15">
+            Luôn đặt giá trị cốt lõi của shop là sự uy tín và niềm tin về giá cả
+            Mọi qúy khách hàng khi đến với LT Shop sẽ có những chính sách khuyến mãi liên tục và quyền lợi riêng của khách hàng thân thiết.
+        </p>
+        <div>
+            <span class="mtext-115">Mời các bạn Like shop tại địa chỉ</span>
+            <p class="mtext-101">
+                Facebook : <a href="https://www.facebook.com/ltshop" target="_blank">https://www.facebook.com/ltshop</a> để luôn cập nhật sản phẩm mới nhanh nhất.
+            </p>
+            <p class="mtext-101">
+                Hoặc ghé qua địa chỉ của Shop tại: 2/12 Hồng Hà, P.6, Quận Tân Bình, TP.HCM
+            </p>
+            <p class="mtext-101">
+                Nhận ship hàng miễn phí trong nội thành Hồ Chí Minh (bán kính 2km)
+            </p>
+            <p class="mtext-101">
+                Với các đơn hàng trên website shop sẽ gọi điện xác nhận đơn hàng, hàng sẽ được giao khi sau khi khách đồng ý.
+            </p>
+            <p class="mtext-101">
+                Ship hàng COD toàn quốc, chuyển phát nhanh phí hợp lý.
+            </p>
+            <div class=" p-t-15">
+                <span class="mtext-115">GIÁ TRỊ CỐT LÕI CỦA LT SHOP</span>
+                <p class="stext-118">Ở LT SHOP, chúng tôi luôn gìn giữ 6 Giá Trị Cốt Lõi để mọi bước đi đều thêm vững chắc và giàu giá trị.</p>
+                <ol>
+                    <li class="p-t-12">
+                        <span class="mtext-101">Đam mê phục vụ khách hàng</span>
+                        <ul class="stext-118" style="list-style-type: circle;">
+                            <li>Đặt sự hài lòng của khách hàng là ưu tiên số một trong mọi suy nghĩ và hành động của mình.</li>
+                            <li>Chủ động, Cười, Chào, Cảm ơn.</li>
+                        </ul>
+                    </li>
+                    <li class="p-t-12">
+                        <span class="mtext-101">Coi mình là gốc rễ của mọi vấn đề</span>
+                        <ul class="stext-118">
+                            <li>Là một sự lựa chọn để từ đó bạn có sức mạnh thay đổi kết quả.</li>
+                            <li>Là bạn đã từ bỏ quyền coi mình là nạn nhân.</li>
+                        </ul>
+                    </li>
+
+                    <li class="p-t-12">
+                        <span class="mtext-101">Trung thực</span>
+                        <ul class="stext-118">
+                            <li>Hoàn tất lời hứa của mình.</li>
+                            <li>Làm đúng, làm đủ theo thiết kế.</li>
+                            <li>Khi đã nỗ lực hết sức mà thấy nguy cơ không thể giữ lời thì ngay lập tức thông tin cho những người có liên quan, tìm hiểu tác động, dọn dẹp hậu quả và đưa ra lời hứa mới.</li>
+                            <li>Không lấy, không sử dụng, không nghĩ đến việc chiếm hữu tiền bạc, hàng hoá, tài sản không phải của mình.</li>
+                            <li>Báo cáo đúng, đủ trạng thái công việc.</li>
+                        </ul>
+                    </li>
+                    <li class="p-t-12">
+                        <span class="mtext-101">Cầu tiến</span>
+                        <ul class="stext-118">
+                            <li>Không ngừng học tập và tự hoàn thiện.</li>
+                            <li>Sẵn sàng thử nghiệm phương pháp mới, chấp nhận thất bại và tiếp tục hành động.</li>
+                            <li>Luôn "Say YES", hành động quyết liệt và tin tưởng sẽ đạt được mục tiêu thách thức.</li>
+                        </ul>
+                    </li>
+                    <li class="p-t-12">
+                        <span class="mtext-101">Yêu thương và hỗ trợ đồng đội</span>
+                        <ul class="stext-118">
+                            <li>Thành thật quan tâm đến đồng đội, sẵn lòng hỗ trợ, hướng dẫn, động viên để họ hoàn thành tốt công việc. Không làm thay, không bao che.</li>
+                            <li>Đứng vào vị trí của người nói để lắng nghe đầy đủ không thành kiến.</li>
+                            <li>Nói thẳng, nói thật một cách kịp thời, trực tiếp và xây dựng. Sẵn lòng đóng góp và đón nhận sự đóng góp.</li>
+                            <li>Luôn ghi nhận thành quả hoặc nỗ lực dù chưa có thành quả.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="p-t-20">
+                <p class="mtext-101 font-italic">Với sứ mệnh đưa LT SHOP thành thương hiệu lớn mạnh, đội ngũ các thành viên LT SHOP cam kết sẽ mang lại sự hài lòng tuyệt đối về sản phẩm cũng như dịch vụ đến tận tay khách hàng.</p>
+            </div>
+        </div>
+    </div>
+</div>
